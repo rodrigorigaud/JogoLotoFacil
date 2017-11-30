@@ -1,0 +1,158 @@
+//		
+//		for (int i = 1; i < 26; i++) {
+//			verificaONumeroQueMaisSaiu(String.valueOf(i));	
+//		}
+//
+
+//		System.out.println("Sequencia de 2 números");
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero02,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero03,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero04,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero05,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero02,ConstantsGame.numero03,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero02,ConstantsGame.numero04,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero02,ConstantsGame.numero05,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero03,ConstantsGame.numero04,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero03,ConstantsGame.numero05,null,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero04,ConstantsGame.numero05,null,null,null);
+//		
+//		
+//		System.out.println("Sequencia de 3 números");
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero02,ConstantsGame.numero03,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero02,ConstantsGame.numero04,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero02,ConstantsGame.numero05,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero03,ConstantsGame.numero04,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero03,ConstantsGame.numero05,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,ConstantsGame.numero04,ConstantsGame.numero05,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero02,ConstantsGame.numero03,ConstantsGame.numero04,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero02,ConstantsGame.numero03,ConstantsGame.numero05,null,null);
+//		verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero03,ConstantsGame.numero04,ConstantsGame.numero05,null,null);
+//		
+//		
+
+Esse jogo '02,03,05,06,09,10,12,13,15,17,18,21,22,24,25'   JÁ saiu na LotoFácil.
+122
+
+Bola 11 saiu :630 vezes.
+Bola 01 saiu :623 vezes.
+Bola 02 saiu :622 vezes.
+Bola 13 saiu :621 vezes.
+Bola 04 saiu :620 vezes.
+Bola 24 saiu :618 vezes.
+Bola 19 saiu :616 vezes.
+Bola 12 saiu :614 vezes.
+Bola 21 saiu :608 vezes.
+Bola 23 saiu :608 vezes.
+Bola 25 saiu :607 vezes.
+Bola 06 saiu :607 vezes.
+Bola 14 saiu :606 vezes.
+Bola 03 saiu :603 vezes.
+Bola 22 saiu :602 vezes.
+
+
+Bola 10 saiu :599 vezes.
+Bola 09 saiu :597 vezes.
+Bola 15 saiu :596 vezes.
+Bola 20 saiu :596 vezes.
+Bola 17 saiu :595 vezes.
+Bola 05 saiu :588 vezes.
+Bola 07 saiu :585 vezes.
+Bola 18 saiu :577 vezes.
+Bola 16 saiu :574 vezes.
+Bola 08 saiu :563 vezes.
+
+
+Sequencia de 3 números
+Numeros em sequencia 01,02,03: 209
+Numeros em sequencia 01,02,04: 223
+Numeros em sequencia 01,02,05: 208
+Numeros em sequencia 02,03,04: 217
+Numeros em sequencia 02,03,05: 197
+Numeros em sequencia 03,04,05: 194
+Sequencia de 4 números
+Numeros em sequencia 01,02,03,04: 122
+Numeros em sequencia 01,02,03,05: 112
+Numeros em sequencia 01,02,04,05: 113
+Numeros em sequencia 01,03,04,05: 109
+
+Numeros 20,21,22: 207
+Numeros 20,21,23: 200
+Numeros 20,21,24: 196
+Numeros 20,21,25: 194
+Numeros 21,22,23: 197
+Numeros 21,23,24: 191
+Numeros 21,23,25: 197
+Numeros 21,22,24: 215
+Numeros 21,22,23: 197
+Numeros 23,24,25: 204
+Numeros 22,24,25: 202
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		verificaJogosDuplicados("03,04,06,08,09,10,13,14,15,17,18,19,21,23,24");
+		verificaJogosDuplicados("01,05,06,08,10,11,12,13,15,16,19,20,21,23,24");
+		verificaJogosDuplicados("01,02,05,06,09,10,11,13,15,17,18,21,22,24,25");
+		verificaJogosDuplicados("01,03,04,05,06,09,10,11,13,15,17,19,20,24,25");
+		verificaJogosDuplicados("02,04,05,06,09,10,11,12,13,16,20,21,22,23,25");
+		verificaJogosDuplicados("03,05,07,08,09,11,14,15,16,18,19,20,22,23,25");
+		verificaJogosDuplicados("01,02,03,05,08,09,11,13,14,17,20,21,22,23,24");
+		verificaJogosDuplicados("02,03,04,06,09,10,11,13,17,18,20,22,23,24,25");
+		verificaJogosDuplicados("02,04,05,08,09,10,12,13,15,16,18,19,21,23,24");
+		verificaJogosDuplicados("01,02,03,04,05,07,11,12,13,16,19,20,21,22,24");
+		verificaJogosDuplicados("01,02,05,06,07,08,11,12,13,15,16,17,19,21,24");
+		verificaJogosDuplicados("02,03,04,08,11,12,13,15,16,18,19,20,21,22,25");
+		verificaJogosDuplicados("03,04,08,10,11,13,14,15,17,18,19,20,21,22,25");
+		verificaJogosDuplicados("01,02,03,07,09,10,12,13,16,17,19,20,21,23,25");
+		verificaJogosDuplicados("01,02,03,05,09,11,12,14,16,18,19,20,21,22,24");
+		verificaJogosDuplicados("01,03,04,05,06,09,11,12,14,16,18,20,22,23,24");
+		verificaJogosDuplicados("01,02,03,06,08,10,11,12,14,18,20,22,23,24,25");
+		verificaJogosDuplicados("01,03,05,07,09,10,11,12,13,16,17,19,20,21,22");
+		verificaJogosDuplicados("01,02,03,04,06,11,12,13,14,16,19,21,22,23,24");
+		verificaJogosDuplicados("01,02,03,04,06,11,12,13,14,15,19,21,23,24,25");
+		verificaJogosDuplicados("01,02,03,04,06,11,12,13,14,15,19,21,23,24,25");
+		verificaJogosDuplicados("01,02,03,04,06,11,12,13,14,16,19,21,22,24,25");
+		verificaJogosDuplicados("01,02,03,04,06,11,12,13,14,16,20,21,22,24,25");
+		verificaJogosDuplicados("01,02,03,04,06,11,12,13,14,18,20,21,22,24,25");
+		verificaJogosDuplicados("01,02,04,06,09,11,12,14,15,17,19,21,22,23,24");
+		verificaJogosDuplicados("01,02,04,05,09,11,12,13,15,17,19,21,22,23,24");
+		verificaJogosDuplicados("01,02,04,05,10,11,12,13,15,17,19,20,22,23,25");
+		verificaJogosDuplicados("02,03,04,06,10,11,12,13,15,18,19,20,22,23,25");
+		verificaJogosDuplicados("02,03,04,06,10,11,12,13,16,18,19,20,22,23,25");
+		verificaJogosDuplicados("01,03,04,06,10,11,12,13,17,18,19,20,21,23,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,12,13,17,18,19,20,21,23,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,12,14,17,18,19,20,21,23,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,12,14,17,18,19,22,23,24,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,13,14,17,18,19,20,21,23,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,13,15,17,18,19,20,21,22,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,13,15,17,18,19,20,21,22,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,13,14,17,18,19,20,21,22,25");
+		verificaJogosDuplicados("01,02,04,06,10,11,12,14,17,18,19,20,21,22,25");
+		verificaJogosDuplicados("01,02,04,09,10,11,12,14,17,18,19,20,21,22,25");
+
+
+
+
+
+
+sequencias
+Numeros 02,03,04,06,19: 42
+Numeros 02,03,04,11,19: 42
+Numeros 02,03,04,09,19: 40
+Numeros 02,03,04,13,19: 40

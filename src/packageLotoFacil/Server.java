@@ -61,7 +61,7 @@ public class Server {
 			System.out.println("Achei um número divisível por 19 entre x e y " + i);
 			break; 
 			}
-			}
+			} 
 		System.out.println(i);
 	
 	
