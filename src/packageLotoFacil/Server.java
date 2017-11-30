@@ -59,7 +59,7 @@ public class Server {
 		for (i = 0; i < 100; i++) {
 			if (i % 19 == 0 && i != 0) {
 			System.out.println("Achei um número divisível por 19 entre x e y " + i);
-			break;
+			break; 
 			}
 			}
 		System.out.println(i);
