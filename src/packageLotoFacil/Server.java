@@ -17,7 +17,7 @@ public class Server {
 	public static void main(String[] args) {
 	
 
-		
+		//teste de comentario
 		int i = 0;
 		
 		for (i = 0; i < 100; i++) {
@@ -27,7 +27,6 @@ public class Server {
 			} 
 			} 
 		System.out.println(i);
-	
 	
 	
 	}
