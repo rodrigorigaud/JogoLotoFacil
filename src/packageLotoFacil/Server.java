@@ -16,42 +16,6 @@ public class Server {
 	 */
 	public static void main(String[] args) {
 	
-//        verificaBolasQueMaisSairamNaSuaPosicao(ConstantsGame.numero01,
-//        									   ConstantsGame.numero02,
-//        									   null,
-//        									   null,
-//        									   null,
-//        									   null,
-//        									   null,        									   
-//        									   null,
-//        									   null,
-//        									   null);
-		
-//		organizarArquivos();
-//		String valor = "5";
-//		int valorint;
-		
-				
-//		valorint = Integer.parseInt(valor.trim());
-//		valorint++;
-		
-//		System.out.println(valorint);
-		
-		
-//		verificaJogosDuplicados("01,02,04,06,08,10,11,13,14,15,16,19,20,22,23");;
-//		verificaJogosDuplicados("01,03,04,05,07,09,10,13,15,17,18,19,21,24,25");;
-//		
-//		verificaJogosDuplicados("01,02,07,09,11,12,14,15,16,17,19,21,22,24,25");;
-//		verificaJogosDuplicados("01,02,05,09,11,12,14,15,16,17,19,21,22,24,25");;
-//		
-//		verificaJogosDuplicados("01,02,03,04,05,07,10,11,13,17,18,19,20,21,25");;
-//		verificaJogosDuplicados("01,02,08,09,10,12,13,14,17,18,19,22,23,24,25");;
-//		
-//		verificaJogosDuplicados("01,02,03,05,06,07,08,11,15,16,17,18,20,21,23");;
-//		verificaJogosDuplicados("01,02,03,05,06,11,12,13,15,16,19,20,21,23,25");;
-//		
-//		verificaJogosDuplicados("01,02,03,04,08,09,10,11,12,14,16,17,19,21,23");;
-//verificaJogosDuplicados("01,03,04,06,08,09,10,11,12,14,16,17,19,21,23");;
 
 		
 		int i = 0;
